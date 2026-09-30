@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+
 @Setter
 @Getter
 public class Perfil {
@@ -11,5 +12,4 @@ public class Perfil {
     String nombre;
     String codigo;
     List<Acceso> accesos;
-
 }

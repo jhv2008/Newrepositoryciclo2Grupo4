@@ -5,7 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
 public class Emisor {
     Long idEmisor;
     String ruc;
@@ -16,5 +15,4 @@ public class Emisor {
     String departamento;
     String provincia;
     String distrito;
-
 }
